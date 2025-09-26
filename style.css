@@ -1,0 +1,86 @@
+/* style.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Add this to style.css to resize the profile photo */
+img[src="DeepaSree.jpg"] {
+    width: 300px;
+    height: 300px;
+    object-fit: cover; /* This ensures the image covers the area without distortion */
+    border-radius: 50%; /* Optional: Makes the image a circle */
+    display: block;
+    margin: 20px auto; /* Centers the image */
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h1, h2, h3, h4 {
+    color: #4b0082; /* deep purple */
+    margin-bottom: 10px;
+}
+
+p, li, td, th {
+    color: #444;
+    line-height: 1.6;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+table th {
+    background-color: #4b0082;
+    color: #fff;
+}
+
+a {
+    color: #0077cc;
+    text-decoration: none;
+    font-weight: 600;
+}
+a:hover {
+    color: #005f9b;
+}
+
+button, .link-buttons a {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #4b0082;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    text-decoration: none;
+}
+button:hover, .link-buttons a:hover {
+    background-color: #372061;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #777;
+}
