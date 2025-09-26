@@ -10,7 +10,7 @@ body {
 }
 
 /* Add this to style.css to resize the profile photo */
-img[src="DeepaSree.jpg"] {
+img[src="Deepa.jpg"] {
     width: 300px;
     height: 300px;
     object-fit: cover; /* This ensures the image covers the area without distortion */
